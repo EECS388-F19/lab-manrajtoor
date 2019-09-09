@@ -3,9 +3,10 @@ import random
 print("Manraj Toor")
 r = random.randint(0, 100)
 print(r)
+temp  = r
 r = random.randint(0, 100)
 print(r)
-temp = 100 + 1
+temp += r
 print("Sum = ", temp)
-temp = ((10+10)/2)
+temp = (temp)/2.0)
 print("Average = ", temp)
